@@ -25,13 +25,6 @@ abstract class Room {
         this.isBooked = false;
     }
 
-    public Room(int number, int maxPeople, int pricePerNight, boolean isBooked) {
-        this.number = number;
-        this.maxPeople = maxPeople;
-        this.pricePerNight = pricePerNight;
-        this.isBooked = isBooked;
-    }
-
     @Override
     public String toString() { return number + " (" + getClass().getSimpleName() + ")"; }
 }
